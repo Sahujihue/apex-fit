@@ -1,0 +1,35 @@
+{
+  "name": "ApexFit AI - Personal Trainer & SaaS Tracker",
+  "short_name": "ApexFit",
+  "description": "Next-generation AI-powered fitness, WHOOP-style strain recovery, nutrition, and workout tracker.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Workout Logger",
+      "url": "/workouts",
+      "description": "Start an active gym workout session"
+    },
+    {
+      "name": "Log Nutrition",
+      "url": "/nutrition",
+      "description": "Log meals and scan barcodes"
+    },
+    {
+      "name": "AI Fitness Coach",
+      "url": "/coach",
+      "description": "Chat with your AI personal trainer"
+    }
+  ]
+}
